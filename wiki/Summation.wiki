@@ -13,3 +13,8 @@ Output
 For each line of input there is one line of output, which contains four prime numbers according to the given condition. If the number cannot be expressed as a summation of four prime numbers print the line “Impossible.” in a single line. There can be multiple solutions. Any good solution will be accepted.
 
 By the Goldbach Conjecture any even number greater than 8 will have two 2s with two other primes that will sum equal it's sum. Any odd number will have a 2 and a 3 in it's set of four primes that equal the number as a sum. By using Goldbach's conjecture of how any natural number greater than or equal to four can be made by the sum of two primes it is possible to make this algorithm. 
+
+
+Optimizations
+
+We got rid of the print function and integrated it in the main, we also created a new function "sieve" that generates the prime numbers.
