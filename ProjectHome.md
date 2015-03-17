@@ -1,0 +1,1 @@
+Primes is a program that takes in an Input and prints out the prime numbers that add up to the given input.
